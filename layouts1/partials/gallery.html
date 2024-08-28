@@ -1,0 +1,26 @@
+
+                            <div class="games-item mobile">
+                                <div class="games-single-item img-contain-isotope">
+                                    <div class="games-thumb">
+                                            <a href="{{ .RelPermalink }}">
+                                                <img src="{{ .Params.image }}" alt="{{ .Title }}" />
+                                            </a>
+                                    </div>
+                                    <div class="games-desc">
+                                        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+										{{ $tags := .Params.tags }}
+										{{ if $tags }}
+											{{ range $index, $tag := $tags }}
+												<a href="{{ $.Site.LanguagePrefix | absURL }}{{ $tag | urlize }}/">{{ $tag }}</a>
+												{{ if lt $index (sub (len $tags) 1) }}
+													<span class="text-muted mx-2">|</span>
+												{{ end }}
+											{{ end }}
+										{{ end }}
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end game item -->	
+							
+					    

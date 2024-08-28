@@ -1,0 +1,40 @@
+{{ partial "header.html" . }}
+
+<body>
+    <header>
+        {{ partial "nav.html" . }}
+    </header>
+
+    <main>
+        <section class="banner-ad">
+            {{ partial "banner-ads.html" . }}
+        </section>
+
+        <section class="gallery">
+            <h2>Popular Games</h2>
+			
+            <div class="gallery-grid">
+                <!-- Repeat this block for each game -->
+				<!--In home index page put games with 'popular' tag-->
+                {{ range where .Site.RegularPages "Params.tags" "intersect" (slice "popular") }}
+				  {{ partial "gallery.html" . }}
+				{{ end }}
+                <!-- End game block -->
+            </div>
+			
+        </section>
+		
+		
+		<aside>
+          <section class="sidebar-ad">
+            {{ partial "banner-ads.html" . }}
+          </section>
+        </aside>
+		
+    </main>
+
+
+	{{ partial "footer.html" . }}
+    
+</body>
+</html>

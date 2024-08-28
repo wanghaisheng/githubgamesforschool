@@ -1,0 +1,122 @@
+{{ partial "header.html" . }}
+
+<!--h1>{{ .Title }}</h1-->
+
+<!-- Breadcrumb Area Start -->
+          <section class="fag-breadcrumb-area">
+             <div class="container">
+                <div class="row">
+
+				   <div class="banner-ad-wrapper">
+				   
+					{{ partial "banner-ads.html" . }}
+					
+				   </div>
+                    
+                   <div class="col-12">
+                      <div class="games-details-banner">
+                         <div class="row">
+                            
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </section>
+          <!-- Breadcrumb Area End -->
+     
+
+
+<!-- games Details Page Start -->
+        <!-- contest-details-section start -->
+        <section class="pb-120 mt-minus-300">
+          <div class="container">
+		  <div class="article-header">
+        <h1>{{ .Title }}</h1>
+    </div>
+            <div class="row justify-content-center">
+              <div class="col-lg-12">
+                <div class="contest-details__slider-area">
+                  <div class="contest-details__thumb-slider">
+                    <div class="game-iframe-container" id="loadgame">
+                      <div class="talpa-splash-container" style="background: var(--color2);"><div class="talpa-splash-top"><div>
+                           <div style="--thumb:url({{ .Params.image }});" alt="Stylish Crop Top Trends"></div>
+                           <button id="talpa-splash-button" class="SP-splash-button" onclick="loadMainGame()" style="display: block;">PLAY NOW</button>
+                           <div class="talpa-loader" style="display: none;">Loading...</div></div></div><div class="talpa-splash-bottom"></div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div><!-- row end -->
+			
+			  <!--post body-->
+			  <article role="main" class="blog-post">         
+                {{ .Content }}
+              </article>
+			  
+			  
+          </div>
+        </section>
+        <!-- contest-details-section end  -->
+           
+
+        <!-- Related Games Start -->
+          <section class="fag-games-area related_games section_100">
+             <div class="container">
+                <div class="row">
+                   <div class="col-12">
+                      <div class="site-heading">
+                         <h2 class="heading_animation">Related <span>games</span></h2>
+                      </div>
+                   </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                      <div class="games-masonary">
+                          <div class="clearfix gamesContainer">
+						  
+						    {{ $currentPage := . }}
+							{{ $relatedPosts := (where .Site.RegularPages "Params.categories" "intersect" $currentPage.Params.categories) }}
+							{{ $relatedPosts = $relatedPosts | append (where .Site.RegularPages "Params.tags" "intersect" $currentPage.Params.tags) }}
+							{{ $relatedPosts = $relatedPosts | uniq }}
+
+							{{ range $post := $relatedPosts }}
+								{{ if ne $post.Permalink $currentPage.Permalink }}
+								   {{ partial "gallery.html" . }}
+								{{ end }}
+							{{ else }}
+								<p>No related posts found.</p>
+							{{ end }}
+						  
+						  </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </section>
+          <!-- Related Games End -->
+
+
+
+<script>
+   function loadMainGame()
+   {
+		 var html = `<iframe class="game-iframe iframeloader" id="game-area" src="{{ .Params.embedUrl }}" width="480" height="800" scrolling="none" frameborder="0" allowfullscreen="" tabindex="0"></iframe>`;
+		 document.getElementById("loadgame").innerHTML = html;
+		 document.getElementById('loadgame').scrollIntoView();
+   }
+   function open_fullscreen() {
+		 let game = document.getElementById("game-area");
+		 if (game.requestFullscreen) {
+		 game.requestFullscreen();
+		 } else if (game.mozRequestFullScreen) { /* Firefox */
+		 game.mozRequestFullScreen();
+		 } else if (game.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
+		 game.webkitRequestFullscreen();
+		 } else if (game.msRequestFullscreen) { /* IE/Edge */
+		 game.msRequestFullscreen();
+		 }
+		 };
+</script>		   
+		 <script>console.log('executing single template');</script>  
+{{ partial "footer.html" . }}

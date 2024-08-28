@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!--title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }} - {{ $.Site.Params.subtitle }}</title-->
+	
+	<!-- Site Title, Description, Author, and Favicon -->
+	
+	
+	
+	{{ if .IsHome }}
+    <title>{{ .Site.Title }} - {{ .Site.Params.subtitle }}</title>
+    {{ if (isset .Site.Params "description") }}
+        <meta name="description" content="{{ .Site.Params.description }}">
+    {{ end }}
+{{ else if eq .Kind "page" }}
+    <title>{{ .Title }} - {{ .Site.Title }}</title>
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+{{ else if eq .Kind "term" }}
+    <title>{{ .Title }} Games - {{ .Site.Title }}</title>
+    <meta name="description" content="Unblock and Play free online {{ .Title }} Games.">
+{{ else }}
+    <title>{{ .Site.Title }}</title>
+    <meta name="description" content="{{ .Site.Params.description }}">
+{{ end }}
+
+{{ with .Site.Params.Author }}
+    <meta name="author" content="{{ . }}">
+{{ end }}
+
+
+{{- partial "seo/main.html" . }} 
+
+
+	<!--{  {- partial "seo/main.html" . }  }   -->
+	
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="{{ "/img/favicon/apple-touch-icon.png" | absURL }}">
+	<link rel="icon" type="image/png" sizes="32x32" href="{{ "/img/favicon/favicon-32x32.png"  | absURL }}">
+	<link rel="icon" type="image/png" sizes="16x16" href="{{ "/img/favicon/favicon-16x16.png" | absURL }}">
+
+
+	
+
+	{{ with .OutputFormats.Get "rss" -}}
+		{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+	{{ end -}}
+	
+	<!--my additions-->
+	<meta name="robots" content="index, follow">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+    
+    <!--Bootstrap css-->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <!--Font Awesome css-->
+    <link rel="stylesheet" href="/css/all.min.css">
+    <!--Magnific css-->
+    <link rel="stylesheet" href="/css/magnific-popup.css">
+    <!--Owl-Carousel css-->
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+    <!--NoUiSlider css-->
+    <link rel="stylesheet" href="/css/nouislider.min.css">
+    <!--Animate css-->
+    <link rel="stylesheet" href="/css/animate.min.css">
+    <!--Site Main Style css-->
+    <link rel="stylesheet" href="/css/style.css">
+    <!--Responsive css-->
+    <link rel="stylesheet" href="/css/responsive.css">
+    
+
+	<meta name="msvalidate.01" content="5736B6BB9154D602357AD2DE00650455" />
+
+</head>
+
+<body>
+
+<!--p>Page Kind: {{ .Kind }}</p>
+<p>Page Type: {{ .Type }}</p>
+<p>Is Home: {{ .IsHome }}</p>
+<p>Is Page: {{ .IsPage }}</p-->
+
+
+{{ partial "nav.html" . }}
+
+<main class="content">

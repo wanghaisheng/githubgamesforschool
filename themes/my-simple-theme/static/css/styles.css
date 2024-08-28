@@ -1,0 +1,226 @@
+body {
+    /*font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;*/
+	margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    
+    font-size: 16px;
+    color: #c4c4c4;
+    line-height: 1.6em;
+    font-weight: 400;
+    background: #0d0e1b;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    letter-spacing: 0.75px;
+
+}
+
+/* Navbar */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999; /* Adjust z-index if needed */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 10px;
+    background: #000000;
+    text-align: center;
+    margin: 0;
+}
+
+
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+	display: inline;
+    color: #ffffff;
+    padding: 25px 0;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 16px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;	
+}
+
+header nav ul li a:hover {    
+  color: #8e44ad;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle glow effect */
+}
+
+.game-emoji {
+	font-size:25px;
+}
+
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Banner Ad */
+.banner-ad img, .sidebar-ad img {
+    width: 100%;
+    height: auto;
+	margin-top: 30px;
+}
+
+/* Gallery */
+.gallery {
+    margin-top: 20px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.game-card {
+    background: #fff;
+    padding: 1px;
+    border: 1px solid #ddd;
+    text-align: center;
+	border-radius: 5px  5px 0px 0px;
+	transition: transform 0.3s ease, background 0.3s ease;
+	
+}
+
+.game-card img {
+    max-width: 100%;
+    height: auto;
+	border-radius: 5px  5px 0px 0px;
+}
+
+.game-card h3 {
+    color: #000000;
+	margin: 2px;
+	text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 16px;
+    font-family: 'Rajdhani', sans-serif;
+	
+}
+
+.game-card h3 a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.game-card:hover {
+    transform: scale(1.05);
+    background: #0d0e1b;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle glow effect */
+}
+
+.game-card:hover h3 a{
+	color: #ffffff;
+}
+
+/* Sidebar Ad */
+aside {
+    margin-top: 20px;
+}
+
+/* Footer */
+
+
+
+footer {
+    background: #000000;
+    color: #fff;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+footer h4 {
+    margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+footer p, footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 5px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: #8e44ad;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle glow effect */
+}
+
+/* Game iframe */
+.game-iframe iframe {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+	border-radius: 5px;
+}
+
+/* Game Details */
+.game-details {
+    margin-bottom: 20px;
+}
+
+.tags span a{
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+
+
+@media (max-width: 768px) {
+  .gallery {
+	 margin-top: 40px; 
+  }
+  
+  .banner-ad img {    
+	margin-top: 60px;
+  }
+  
+  
+}
+
+/*breaking navbar in mobile*/
+.nav-parts {
+  display: inline-block; /* Display as inline-block by default */
+}
+
+@media screen and (max-width: 768px) { /* Adjust the breakpoint as needed */
+  .nav-parts {
+    display: block; /* Force a line break on mobile */
+  }
+}

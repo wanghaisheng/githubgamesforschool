@@ -1,0 +1,92 @@
+{{ partial "header.html" . }}
+
+<body>
+    <header>
+        {{ partial "nav.html" . }}
+    </header>
+
+    <main>
+	    <section class="banner-ad">
+            {{ partial "banner-ads.html" . }}
+        </section>
+		
+        <section class="game-iframe">
+            <iframe src="hh{{ .Params.embedUrl }}" id="game-area" scrolling="none" frameborder="0" allowfullscreen="" tabindex="0"></iframe>
+        </section>
+
+
+        <section class="game-details">
+            <h1>{{ .Title }}</h1>
+            <p>{{ .Content }}</p>
+            <div class="tags">
+			    {{ $tags := .Params.tags }}
+				{{ if $tags }}
+					{{ range $index, $tag := $tags }}
+					  
+						<span><a href="{{ $.Site.LanguagePrefix | absURL }}{{ $tag | urlize }}/">{{ $tag }}</a></span>
+					   
+					{{ end }}
+				{{ end }}
+                <!-- Repeat tags -->
+            </div>
+        </section>
+
+        <section class="related-games">
+            <h2>Related Games</h2>
+            <div class="gallery-grid">
+                <!-- Repeat this block for each game -->
+                {{ $currentPage := . }}
+				{{ $relatedPosts := (where .Site.RegularPages "Params.categories" "intersect" $currentPage.Params.categories) }}
+				{{ $relatedPosts = $relatedPosts | append (where .Site.RegularPages "Params.tags" "intersect" $currentPage.Params.tags) }}
+				{{ $relatedPosts = $relatedPosts | uniq }}
+
+				{{ range $post := $relatedPosts }}
+					{{ if ne $post.Permalink $currentPage.Permalink }}
+					   {{ partial "gallery.html" . }}
+					{{ end }}
+				{{ else }}
+					<p>No related posts found.</p>
+				{{ end }}
+                <!-- End game block -->
+            </div>
+        </section>
+		
+		<aside>
+          <section class="sidebar-ad">
+            {{ partial "banner-ads.html" . }}
+          </section>
+        </aside>
+		
+    </main>
+ 
+
+    <footer>
+        <div class="footer-section">
+            <h4>About Us</h4>
+            <p>Information about the website.</p>
+        </div>
+        <div class="footer-section">
+            <h4>Links</h4>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Links</h4>
+            <ul>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Social Profiles</h4>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>

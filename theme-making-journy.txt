@@ -1,0 +1,5 @@
+downloaded https://github.com/ericmurphyxyz/hugo-starter-theme to theme dir
+then in config.toml added theme = 'hugo-starter-theme'
+
+then in config.toml added enableRobotsTXT = true
+place robot.txt template in layout folder

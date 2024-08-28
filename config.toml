@@ -1,0 +1,32 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Unblocked Games'
+
+theme = 'my-simple-theme'
+
+enableRobotsTXT = true
+
+[permalinks]
+  posts = '/:slug/'
+  tags = '/:slug/'       # Adjust as needed
+  #category = '/categories/:slug/'  # Ensure this points to a category structure
+
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML"]
+  taxonomyTerm = ["HTML"]
+  
+[params]
+    showRelatedPosts = true #for lightbi related posts
+    description = "My hugo game site description."
+	subtitle = "Imti Games"
+	Author = "sk Md Imtiaj"
+	

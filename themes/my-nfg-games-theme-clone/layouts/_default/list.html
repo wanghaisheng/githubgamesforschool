@@ -1,0 +1,49 @@
+{{ partial "header.html" . }}
+
+
+<!--h1>{{ .Title }}</h1-->
+
+{{ .Content }}
+
+<section class="faf-games-area section_140">
+        <div class="container">
+
+           
+           <div class="row">
+			
+			  {{ partial "home-banner.html" . }}
+			  
+			<div class="row">
+                <div class="col-12">
+                    <div class="games-masonary">
+                        <div class="projectFilter project-btn">
+                            <ul>
+                                <li><a href="#" data-filter="*" class="current">show all</a></li>
+                                <li><a href="#" data-filter=".desktop">Desktop</a></li>
+                                <li><a href="#" data-filter=".mobile">mobile</a></li>
+                            </ul>
+                        </div>
+
+
+                        <div class="clearfix gamesContainer">
+			
+
+						    {{ range .Pages }}
+							  {{ partial "gallery.html" . }}
+							{{ end }}
+							
+						</div>
+					</div>
+				</div>
+            </div>
+           </div>
+		</div>
+        &nbsp;
+        &nbsp;
+  </section>
+    <script>console.log('executing list template');</script>
+	<!-- Games Area End -->
+    <!-- Footer Area Start -->
+
+
+{{ partial "footer.html" . }}
