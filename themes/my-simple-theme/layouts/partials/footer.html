@@ -7,7 +7,7 @@ Learn, play, and collaborate in a fun and interactive environment. Level up your
 </p>
         </div>
         <div class="footer-section">
-            <h4>🔥 Top Gmaes 🔥</h4>
+            <h4>🔥Games🔥</h4>
             <ul>
                 <li>🏆 <a href="{{ "" | absLangURL }}">Popular</a></li>
                 <li>⚔️ <a href="{{ "" | absLangURL }}action/">Action</a></li>
@@ -28,12 +28,32 @@ Learn, play, and collaborate in a fun and interactive environment. Level up your
             </ul>
         </div-->
         <div class="footer-section">
-            <h4>Connects/Privacy</h4>
+            <h4>💡 Info</h4>
             <ul>
-                <li>🌐 <a href="#">Website</a></li>
+                <li>🌐 <a href="https://online-generator.github.io/unblockedgames/">Website</a></li>
                 <li>𝕏 <a href="#">Twitter</a></li>
                 <li>📧 <a href="#">Contact</a></li>
                 <li>🔐 <a href="#">Privacy Policy</a></li>
             </ul>
         </div>
     </footer>
+	
+<!--lazy load gallery images-->	
+<script>
+function lazyLoadImages() {console.log('c');
+  const images = document.querySelectorAll('.thumbnail');
+  const inViewThreshold = 200; // Adjust this value as needed
+
+  images.forEach(image => {
+    const rect = image.getBoundingClientRect();
+    const windowHeight = window.innerHeight; console.log(image.getAttribute('data-src'));
+
+    if (rect.top + inViewThreshold >= 0 && rect.bottom - inViewThreshold <= windowHeight) {
+      image.src = image.getAttribute('data-src');
+    }
+  });
+}
+
+window.addEventListener('load', lazyLoadImages);
+window.addEventListener('scroll', lazyLoadImages);
+</script>
