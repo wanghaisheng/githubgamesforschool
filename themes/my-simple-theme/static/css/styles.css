@@ -28,6 +28,7 @@ nav {
   z-index: 999; /* Adjust z-index if needed */
 }
 
+
 header nav ul {
     list-style: none;
     padding: 10px;
@@ -40,6 +41,7 @@ header nav ul {
 header nav ul li {
     display: inline;
     margin-right: 10px;
+
 }
 
 header nav ul li a {
