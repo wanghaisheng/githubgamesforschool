@@ -16,8 +16,11 @@
             <div class="gallery-grid">
                 <!-- Repeat this block for each game -->
 				<!--In home index page put games with 'popular' tag-->
-                {{ range .Pages }}
-				  {{ partial "gallery.html" . }}
+				
+                {{ $index := 0 }}
+				{{ range .Pages }}
+				  {{ partial "gallery.html" (dict "Page" . "Index" $index) }}
+				  {{ $index = add $index 1 }}
 				{{ end }}
                 <!-- End game block -->
             </div>

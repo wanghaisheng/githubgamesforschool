@@ -39,10 +39,11 @@
 				{{ $relatedPosts := (where .Site.RegularPages "Params.categories" "intersect" $currentPage.Params.categories) }}
 				{{ $relatedPosts = $relatedPosts | append (where .Site.RegularPages "Params.tags" "intersect" $currentPage.Params.tags) }}
 				{{ $relatedPosts = $relatedPosts | uniq }}
-
+                
+				
 				{{ range $post := $relatedPosts }}
 					{{ if ne $post.Permalink $currentPage.Permalink }}
-					   {{ partial "gallery.html" . }}
+					   {{ partial "gallery-full-lazy-load.html" . }}
 					{{ end }}
 				{{ else }}
 					<p>No related posts found.</p>

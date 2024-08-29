@@ -1,24 +1,18 @@
 <div class="game-card">
 	
-{{ $image := .Page.Params.image }}
+{{ $image := .Params.image }}
   {{ if $image }}  <!-- Check if the image is not empty or nil -->
     {{ $imageResource := resources.Get $image }}
     {{ if $imageResource }}  <!-- Check if the resource was successfully retrieved -->
-        {{ $processedImage := $imageResource.Resize "170x170 webp" }}
+        {{ $processedImage := $imageResource.Resize "170x170 webp" }}	
 		
-		{{ $index := .Index }} <!--index are in parent templates(index,terms,list,taxonomy, and passed to here-->
 		
-        <a href="{{ .Page.RelPermalink }}">
-		{{ if le $index 5 }}
-		<img  width="170" height="170"  src="{{ $processedImage.Permalink }}" alt="{{ .Page.Title }}" />
-			 
-		{{ else }}
+        <a href="{{ .RelPermalink }}">
+		
 		<img loading="lazy" class="thumbnail" width="170" height="170"  
 			 src="{{ "" | absLangURL }}img/placeholder.webp" 
 			 data-src="{{ $processedImage.Permalink }}" 
-			 alt="{{ .Page.Title }}" />
-		{{ end }}
-		
+			 alt="{{ .Title }}" />		
 	    </a>
     {{ else }}
         <!-- Handle the case where the resource could not be found -->
@@ -31,7 +25,7 @@
   {{ end }}
 
 
-	<h3><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></h3>
+	<h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
 </div>
 
 
