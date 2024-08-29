@@ -43,7 +43,7 @@ Learn, play, and collaborate in a fun and interactive environment. Level up your
 <script>
 function lazyLoadImages() {
   const images = document.querySelectorAll('.thumbnail');
-  const inViewThreshold = 200; // Adjust this value as needed
+  const inViewThreshold = 100; // Adjust this value as needed
 
   images.forEach(image => {
     const rect = image.getBoundingClientRect();
@@ -58,3 +58,12 @@ function lazyLoadImages() {
 window.addEventListener('load', lazyLoadImages);
 window.addEventListener('scroll', lazyLoadImages);
 </script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
