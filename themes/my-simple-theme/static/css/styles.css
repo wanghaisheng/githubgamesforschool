@@ -19,6 +19,9 @@ body {
 
 }
 
+
+
+
 /* Navbar */
 nav {
   position: fixed;
@@ -35,6 +38,8 @@ header nav ul {
     background: #000000;
     text-align: center;
     margin: 0;
+	
+	
 }
 
 
@@ -53,6 +58,8 @@ header nav ul li a {
     letter-spacing: .1em;
     font-size: 16px;
     font-family: 'Rajdhani', sans-serif;
+	
+	
     font-weight: 600;	
 }
 
@@ -206,15 +213,32 @@ footer ul li a:hover {
 
 @media (max-width: 768px) {
   .gallery {
-	 margin-top: 80px; 
+	 margin-top: 100px; 
   }
   
   .banner-ad img {    
 	margin-top: 60px;
   }
   
+  header nav ul li a {    
+	display: inline-block;
+    padding: 3px 0;    	
+   } 
   
 }
+
+@media(min-width: 800px) {
+  .gallery {
+	 margin-top: 80px; 
+  }
+}
+
+@media(min-width: 350px) {
+  nav {
+	 margin-bottom: 30px; 
+  }
+}
+
 
 /*breaking navbar in mobile*/
 .nav-parts {

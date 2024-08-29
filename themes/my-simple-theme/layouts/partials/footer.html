@@ -41,13 +41,13 @@ Learn, play, and collaborate in a fun and interactive environment. Level up your
 	
 <!--lazy load gallery images-->	
 <script>
-function lazyLoadImages() {console.log('c');
+function lazyLoadImages() {
   const images = document.querySelectorAll('.thumbnail');
   const inViewThreshold = 200; // Adjust this value as needed
 
   images.forEach(image => {
     const rect = image.getBoundingClientRect();
-    const windowHeight = window.innerHeight; console.log(image.getAttribute('data-src'));
+    const windowHeight = window.innerHeight;
 
     if (rect.top + inViewThreshold >= 0 && rect.bottom - inViewThreshold <= windowHeight) {
       image.src = image.getAttribute('data-src');
