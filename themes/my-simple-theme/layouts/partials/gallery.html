@@ -4,7 +4,7 @@
   {{ if $image }}  <!-- Check if the image is not empty or nil -->
     {{ $imageResource := resources.Get $image }}
     {{ if $imageResource }}  <!-- Check if the resource was successfully retrieved -->
-        {{ $processedImage := $imageResource.Resize "170x170 webp" }}
+        {{ $processedImage := $imageResource.Resize "255x255 webp" }} <!--pagespeed inshite, best practise, if display size is 177 then, image size should be 255-->
 		
 		{{ $index := .Index }} <!--index are in parent templates(index,terms,list,taxonomy, and passed to here-->
 		
