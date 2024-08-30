@@ -1,6 +1,7 @@
 ---
 title: "Extreme Pamplona"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Extreme Pamplona"
+date: 2024-08-29T20:36:33.896646
 description: "Extreme Pamplona"
 #draft: true
 image: "img/extreme-pamplona/logo.png"

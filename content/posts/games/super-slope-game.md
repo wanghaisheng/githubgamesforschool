@@ -1,6 +1,7 @@
 ---
 title: "Super Slope Game"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Super Slope Game"
+date: 2024-08-29T20:36:33.896646
 description: "Play Super Slope Game and roll down slopes in this easy to play 3D game. Control the ball, avoid obstacles, and see how far you can go. Enjoy this simple and fun online game."
 #draft: true
 image: "img/super-slope-game/logo.webp"

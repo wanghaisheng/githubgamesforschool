@@ -1,10 +1,11 @@
 ---
 title: "Cartoon Mini Racing"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Cartoon Mini Racing"
+date: 2024-08-29T20:36:33.896646
 description: "cartoon mini racing 2 cartoon mini racing crazy games mini racing game download for pc cartoon mini racing unblocked cartoon mini racing poki cartoon mini racing snokido cartoon mini car"
 #draft: true
 image: "img/cartoon-mini-racing/logo.webp"
-tags: [racing, car, mobile]
+tags: [mobile, car, racing]
 embedUrl: "https://ubg77.github.io/edit/cartoon-mini-racing/"
 ---
 

@@ -1,10 +1,11 @@
 ---
 title: "Fortride Open World"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Fortride Open World"
+date: 2024-08-29T20:36:33.896646
 description: "fortride: open world online fortride: open world crazy games fortride: open world unblocked fortride: open ride fortride friv4school fortride poki flying car 3d flying car transport simulator"
 #draft: true
 image: "img/fortride-open-world/logo.webp"
-tags: [racing, car, mobile]
+tags: [mobile, car, racing]
 embedUrl: "https://ubg77.github.io/edit/fortride-open-world/"
 ---
 

@@ -1,10 +1,11 @@
 ---
 title: "Fleeing The Complex"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Fleeing The Complex"
+date: 2024-08-29T20:36:33.896646
 description: "Fleeing The Complex, Fleeing The Complex Unblocked"
 #draft: true
 image: "img/fleeing-the-complex/logo.png"
-tags: [mobile, adventure]
+tags: [adventure, mobile]
 embedUrl: "https://henrystickmanunblocked.github.io/fleeing-the-complex/"
 ---
 

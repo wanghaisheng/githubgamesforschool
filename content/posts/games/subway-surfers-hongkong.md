@@ -1,6 +1,7 @@
 ---
 title: "Subway Surfers HongKong"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Subway Surfers HongKong"
+date: 2024-08-29T20:36:33.896646
 description: "Subway Surfers HongKong"
 #draft: true
 image: "img/subway-surfers-hongkong/logo.png"

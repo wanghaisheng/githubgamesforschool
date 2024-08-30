@@ -1,10 +1,11 @@
 ---
 title: "Smash Karts"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Smash Karts"
+date: 2024-08-29T20:36:33.896646
 description: "smash karts poki smash karts y8 smash karts 76 smash karts io smash karts game smash karts 2 unblocked smash karts smash karts friv"
 #draft: true
 image: "img/smash-karts/logo.webp"
-tags: [racing, shooting]
+tags: [shooting, racing]
 embedUrl: "https://webglmath.github.io/smash-karts/"
 ---
 

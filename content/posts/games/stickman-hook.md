@@ -1,6 +1,7 @@
 ---
 title: "Stickman Hook"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Stickman Hook"
+date: 2024-08-29T20:36:33.896646
 description: "Stickman Hook"
 #draft: true
 image: "img/stickman-hook/logo.png"

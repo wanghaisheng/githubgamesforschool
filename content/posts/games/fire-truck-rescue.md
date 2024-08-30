@@ -1,10 +1,11 @@
 ---
 title: "Fire Truck Rescue"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Fire Truck Rescue"
+date: 2024-08-29T20:36:33.896646
 description: "fire truck rescue game fire truck rescue games online free rescue fire truck for sale light rescue fire truck fire rescue truck ambulance heavy rescue fire truck heavy rescue fire truck for sale light rescue truck for sale"
 #draft: true
 image: "img/fire-truck-rescue/logo.png"
-tags: [racing, truck, mobile]
+tags: [mobile, racing, truck]
 embedUrl: "https://firetruckrescue.github.io/"
 ---
 

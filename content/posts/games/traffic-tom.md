@@ -1,6 +1,7 @@
 ---
 title: "Traffic Tom"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Traffic Tom"
+date: 2024-08-29T20:36:33.896646
 description: "A 3D bike riding game called Traffic Tom has stunning sceneries and difficult road tasks."
 #draft: true
 image: "img/traffic-tom/logo.png"

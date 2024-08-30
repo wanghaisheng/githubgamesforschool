@@ -1,6 +1,7 @@
 ---
 title: "Drift Boss"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Drift Boss"
+date: 2024-08-29T20:36:33.896646
 description: "Play Drift Boss, the top drifting game! Navigate sharp turns, master challenging tracks, and show off your drifting skills. Perfect for all skill levels—easy to learn, hard to master!"
 #draft: true
 image: "img/drift-boss/logo.webp"

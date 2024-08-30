@@ -11,6 +11,7 @@
         </section>
 
         <section class="gallery">
+		    {{ index .Site.Data.tagsDescription.popular | safeHTML }}
             <h2>Popular Games</h2>
 			
             <div class="gallery-grid">

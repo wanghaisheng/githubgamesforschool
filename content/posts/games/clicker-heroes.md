@@ -1,6 +1,7 @@
 ---
 title: "Clicker Heroes"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Clicker Heroes"
+date: 2024-08-29T20:36:33.896646
 description: "Clicker Heroes Game, Adventure Games, AdventureGames, Adventure Games Pc, AdventureGamesPc, Adventure Games Online, AdventureGamesOnline, Adventure Games Free, AdventureGamesFree"
 #draft: true
 image: "img/clicker-heroes/logo.png"

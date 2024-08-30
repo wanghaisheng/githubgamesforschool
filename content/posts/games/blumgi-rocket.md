@@ -1,10 +1,11 @@
 ---
 title: "Blumgi Rocket"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Blumgi Rocket"
+date: 2024-08-29T20:36:33.896646
 description: "blumgi rocket github, blumgi rocket download, blumgi rocket apk, blumgi rocket unblocked, blumgi rocket full screen, how many levels are in blumgi rocket, blumgi basketball, blumgi castle"
 #draft: true
 image: "img/blumgi-rocket/logo.webp"
-tags: [racing, car, popular]
+tags: [car, racing, popular]
 embedUrl: "https://webglmath.github.io/blumgi-rocket/"
 ---
 

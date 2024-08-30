@@ -1,6 +1,7 @@
 ---
 title: "Monster Truck Destroyer"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Monster Truck Destroyer"
+date: 2024-08-29T20:36:33.896646
 description: "A side-scrolling monster truck driving game is called Monster Truck Destroyer. Making as much havoc as you can along the way, finish all the tracks!"
 #draft: true
 image: "img/monster-truck-destroyer/logo.png"

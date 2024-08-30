@@ -1,10 +1,11 @@
 ---
 title: "Fireboy & Watergirl"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Fireboy & Watergirl"
+date: 2024-08-29T20:36:33.896646
 description: "Fireboy And Watergirl, Fireboy And Watergirl Unblocked"
 #draft: true
 image: "img/fireboy-watergirl/logo.png"
-tags: [mobile, adventure]
+tags: [adventure, mobile]
 embedUrl: "https://webglmath.github.io/fireboy-and-watergirl-1/"
 ---
 

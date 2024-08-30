@@ -1,6 +1,7 @@
 ---
 title: "Basketball Legends 2020"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Basketball Legends 2020"
+date: 2024-08-29T20:36:33.896646
 description: "Basketball Legends 2020"
 #draft: true
 image: "img/basketball-legends-2020/logo.png"

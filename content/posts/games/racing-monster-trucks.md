@@ -1,10 +1,11 @@
 ---
 title: "Racing Monster Trucks"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Racing Monster Trucks"
+date: 2024-08-29T20:36:33.896646
 description: "racing monster trucks game monster truck racing near me monster truck racing events monster truck race track hot wheels monster truck racing hot wheels monster trucks monster truck race track hot wheels monster truck racing math playground"
 #draft: true
 image: "img/racing-monster-trucks/logo.png"
-tags: [racing, truck, mobile]
+tags: [mobile, racing, truck]
 embedUrl: "https://racingmonstertrucks.github.io/"
 ---
 

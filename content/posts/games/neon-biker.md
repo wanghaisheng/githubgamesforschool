@@ -1,10 +1,11 @@
 ---
 title: "Neon Biker"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Neon Biker"
+date: 2024-08-29T20:36:33.896646
 description: ""
 #draft: true
 image: "img/neon-biker/logo.png"
-tags: [motorbike, driving]
+tags: [driving, motorbike]
 embedUrl: "https://neonbikergame.github.io/"
 ---
 

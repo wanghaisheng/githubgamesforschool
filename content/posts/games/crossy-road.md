@@ -1,6 +1,7 @@
 ---
 title: "Crossy Road"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Crossy Road"
+date: 2024-08-29T20:36:33.896646
 description: "Crossy Road"
 #draft: true
 image: "img/crossy-road/logo.png"

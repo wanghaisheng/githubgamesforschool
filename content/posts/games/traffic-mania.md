@@ -1,10 +1,11 @@
 ---
 title: "Traffic Mania"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Traffic Mania"
+date: 2024-08-29T20:36:33.896646
 description: "traffic mania unblocked traffic mania y8 traffic mania cool math games traffic mania math playground parking mania traffic game traffic run i love traffic"
 #draft: true
 image: "img/traffic-mania/logo.png"
-tags: [racing, car, mobile]
+tags: [mobile, car, racing]
 embedUrl: "https://trafficmania.github.io/"
 ---
 

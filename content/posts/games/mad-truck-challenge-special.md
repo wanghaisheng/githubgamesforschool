@@ -1,10 +1,11 @@
 ---
 title: "Mad Truck Challenge Special"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Mad Truck Challenge Special"
+date: 2024-08-29T20:36:33.896646
 description: ""
 #draft: true
 image: "img/mad-truck-challenge-special/logo.webp"
-tags: [racing, truck, mobile]
+tags: [mobile, racing, truck]
 embedUrl: "https://ubg77.github.io/edit/mad-truck-challenge-special/"
 ---
 

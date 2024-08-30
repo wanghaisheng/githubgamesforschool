@@ -1,10 +1,11 @@
 ---
 title: "Road Fury"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Road Fury"
+date: 2024-08-29T20:36:33.896646
 description: ""
 #draft: true
 image: "img/road-fury/logo.webp"
-tags: [racing, shooting]
+tags: [shooting, racing]
 embedUrl: "https://roadfury.games235.com/"
 ---
 

@@ -1,10 +1,11 @@
 ---
 title: "Wheely 4"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Wheely 4"
+date: 2024-08-29T20:36:33.896646
 description: "Wheely 4"
 #draft: true
 image: "img/wheely-4/logo.png"
-tags: [racing, car, mobile]
+tags: [mobile, car, racing]
 embedUrl: "https://wheelygame.github.io/4/"
 ---
 

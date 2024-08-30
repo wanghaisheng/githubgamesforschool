@@ -1,10 +1,11 @@
 ---
 title: "Real Flying Truck"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Real Flying Truck"
+date: 2024-08-29T20:36:33.896646
 description: ""
 #draft: true
 image: "img/real-flying-truck/logo.png"
-tags: [racing, truck, mobile]
+tags: [mobile, racing, truck]
 embedUrl: "https://realflyingtruck.github.io/"
 ---
 

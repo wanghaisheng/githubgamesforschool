@@ -1,6 +1,7 @@
 ---
 title: "Bullet Force"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Bullet Force"
+date: 2024-08-29T20:36:33.896646
 description: "The multiplayer first-person shooter Bullet Force offers 20-player servers, customizable weapons, thrilling gunplay, a variety of game types, and more. A single-player option with bots is also available in Bullet Force."
 #draft: true
 image: "img/bullet-force/logo.png"

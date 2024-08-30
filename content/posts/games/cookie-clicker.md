@@ -1,6 +1,7 @@
 ---
 title: "Cookie Clicker"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Cookie Clicker"
+date: 2024-08-29T20:36:33.896646
 description: "Cookie Clicker Game, Adventure Games, AdventureGames, Adventure Games Pc, AdventureGamesPc, Adventure Games Online, AdventureGamesOnline, Adventure Games Free, AdventureGamesFree"
 #draft: true
 image: "img/cookie-clicker/logo.png"

@@ -1,10 +1,11 @@
 ---
 title: "Stealing The Diamond"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Stealing The Diamond"
+date: 2024-08-29T20:36:33.896646
 description: "Stealing The Diamond, Stealing The Diamond Unblocked"
 #draft: true
 image: "img/stealing-the-diamond/logo.png"
-tags: [mobile, adventure]
+tags: [adventure, mobile]
 embedUrl: "https://henrystickmanunblocked.github.io/stealing-the-diamond/"
 ---
 

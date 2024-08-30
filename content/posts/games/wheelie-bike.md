@@ -1,10 +1,11 @@
 ---
 title: "Wheelie Bike"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Wheelie Bike"
+date: 2024-08-29T20:36:33.896646
 description: "Wheelie Bike"
 #draft: true
 image: "img/wheelie-bike/logo.png"
-tags: [bike, driving]
+tags: [driving, bike]
 embedUrl: "https://wheeliebike.github.io/"
 ---
 

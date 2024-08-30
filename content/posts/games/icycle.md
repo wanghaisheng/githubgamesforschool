@@ -1,10 +1,11 @@
 ---
 title: "Icycle"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Icycle"
+date: 2024-08-29T20:36:33.896646
 description: "Icycle is an arcade game where you ride a bike and pick up frozen bubbles as you go. To get to the finish line, remember to avoid the obstacles. Good fortune!"
 #draft: true
 image: "img/icycle/logo.png"
-tags: [bike, driving]
+tags: [driving, bike]
 embedUrl: "https://icycleunblocked.github.io/"
 ---
 

@@ -1,10 +1,11 @@
 ---
 title: "Bad Ice Cream 3"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Bad Ice Cream 3"
+date: 2024-08-29T20:36:33.896646
 description: "Bad Ice Cream 3, Bad Ice Cream 3 Unblocked"
 #draft: true
 image: "img/bad-ice-cream-3/logo.png"
-tags: [mobile, adventure]
+tags: [adventure, mobile]
 embedUrl: "https://badicecreamunblocked.github.io/3/"
 ---
 

@@ -1,10 +1,11 @@
 ---
 title: "Vex 6"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Vex 6"
+date: 2024-08-29T20:36:33.896646
 description: "Vex 5, Vex 5 Unblocked"
 #draft: true
 image: "img/vex-6/logo.png"
-tags: [skill, adventure, popular]
+tags: [adventure, skill, popular]
 embedUrl: "https://vexunblocked.github.io/6/"
 ---
 

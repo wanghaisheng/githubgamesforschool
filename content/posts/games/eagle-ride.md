@@ -1,6 +1,7 @@
 ---
 title: "Eagle Ride"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Eagle Ride"
+date: 2024-08-29T20:36:33.896646
 description: "Eagle Ride"
 #draft: true
 image: "img/eagle-ride/logo.png"

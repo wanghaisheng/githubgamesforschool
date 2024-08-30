@@ -1,10 +1,11 @@
 ---
 title: "Highway Rider Extreme"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Highway Rider Extreme"
+date: 2024-08-29T20:36:33.896646
 description: ""
 #draft: true
 image: "img/highway-rider-extreme/logo.png"
-tags: [racing, motorbike, popular]
+tags: [motorbike, racing, popular]
 embedUrl: "https://highwayriderextreme.github.io/"
 ---
 

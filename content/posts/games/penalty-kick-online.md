@@ -1,6 +1,7 @@
 ---
 title: "Penalty Kick Online"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Penalty Kick Online"
+date: 2024-08-29T20:36:33.896646
 description: ""
 #draft: true
 image: "img/penalty-kick-online/logo.png"

@@ -1,10 +1,11 @@
 ---
 title: "E-Scooter"
-date: 2024-08-27T14:44:31.261189
+gametitle: "E-Scooter"
+date: 2024-08-29T20:36:33.896646
 description: "e scooter game unblocked crazy game a car game van game traffic games the truck game fast games game speed"
 #draft: true
 image: "img/e-scooter/logo.png"
-tags: [motorbike, driving]
+tags: [driving, motorbike]
 embedUrl: "https://escooterunblocked.github.io/"
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Color Tunnel"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Color Tunnel"
+date: 2024-08-29T20:36:33.896646
 description: "Color Tunnel"
 #draft: true
 image: "img/color-tunnel/logo.png"

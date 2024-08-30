@@ -1,6 +1,7 @@
 ---
 title: "Gun Mayhem 3"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Gun Mayhem 3"
+date: 2024-08-29T20:36:33.896646
 description: "Gun Mayhem 3"
 #draft: true
 image: "img/gun-mayhem-3/logo.png"

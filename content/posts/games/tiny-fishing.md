@@ -1,6 +1,7 @@
 ---
 title: "Tiny Fishing"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Tiny Fishing"
+date: 2024-08-29T20:36:33.896646
 description: "Tiny Fishing Game, Idle Games, IdleGames, Idle Games Pc, IdleGamesPc, Idle Games Online, IdleGamesOnline, Idle Games Free, IdleGamesFree"
 #draft: true
 image: "img/tiny-fishing/logo.png"

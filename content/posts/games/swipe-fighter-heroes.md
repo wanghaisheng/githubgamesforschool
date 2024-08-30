@@ -1,6 +1,7 @@
 ---
 title: "Swipe Fighter Heroes"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Swipe Fighter Heroes"
+date: 2024-08-29T20:36:33.896646
 description: "Swipe Fighter Heroes"
 #draft: true
 image: "img/swipe-fighter-heroes/logo.png"

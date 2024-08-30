@@ -1,6 +1,7 @@
 ---
 title: "Tap Tap Shots"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Tap Tap Shots"
+date: 2024-08-29T20:36:33.896646
 description: "sport games online, sport games free download, sport games for kids, sports games free"
 #draft: true
 image: "img/tap-tap-shots/logo.png"

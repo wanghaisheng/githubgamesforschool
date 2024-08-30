@@ -1,6 +1,7 @@
 ---
 title: "Crazy Tunnel 3D"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Crazy Tunnel 3D"
+date: 2024-08-29T20:36:33.896646
 description: "Crazy Tunnel 3D"
 #draft: true
 image: "img/crazy-tunnel-3d/logo.png"

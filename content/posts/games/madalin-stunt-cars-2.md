@@ -1,10 +1,11 @@
 ---
 title: "Madalin Stunt Cars 2"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Madalin Stunt Cars 2"
+date: 2024-08-29T20:36:33.896646
 description: ""
 #draft: true
 image: "img/madalin-stunt-cars-2/logo.webp"
-tags: [racing, car, mobile]
+tags: [mobile, car, racing]
 embedUrl: "https://webglmath.github.io/madalin-stunt-cars-2/"
 ---
 

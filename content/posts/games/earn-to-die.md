@@ -1,6 +1,7 @@
 ---
 title: "Earn To Die"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Earn To Die"
+date: 2024-08-29T20:36:33.896646
 description: "Earn To Die Game, truck games online truck games download truck games pc 18 wheeler truck games truck games 3d truck driver game pickup truck games truck games for kids truck games - build a house"
 #draft: true
 image: "img/earn-to-die/logo.png"

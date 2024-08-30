@@ -1,10 +1,11 @@
 ---
 title: "Ultimate Off Road"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Ultimate Off Road"
+date: 2024-08-29T20:36:33.896646
 description: "Ultimate Off Road Game, truck games online pickup truck games 18 wheeler truck games truck games download truck driver game truck games pc truck games for kids truck games - build a house"
 #draft: true
 image: "img/ultimate-off-road/logo.png"
-tags: [racing, truck, mobile]
+tags: [mobile, racing, truck]
 embedUrl: "https://ultimateoffroad.github.io/"
 ---
 

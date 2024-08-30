@@ -11,8 +11,9 @@
         </section>
 
         <section class="gallery">
+		    {{ index .Site.Data.tagsDescription  .Title  | safeHTML }}
             <h2>Popular {{ .Title }} Games</h2>
-			
+
             <div class="gallery-grid">
                 <!-- Repeat this block for each game -->
 				<!--In home index page put games with 'popular' tag-->

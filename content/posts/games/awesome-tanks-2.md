@@ -1,6 +1,7 @@
 ---
 title: "Awesome Tanks 2"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Awesome Tanks 2"
+date: 2024-08-29T20:36:33.896646
 description: "You must complete 15 intense stages in Awesome Tanks 2 in order to win, same like Awesome Tanks 1. None of the levels are just rehashes of their predecessors; each one is entirely original. All new maps, but the basic game concept is the same!"
 #draft: true
 image: "img/awesome-tanks-2/logo.png"

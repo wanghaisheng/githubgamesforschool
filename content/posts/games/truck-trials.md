@@ -1,10 +1,11 @@
 ---
 title: "Truck Trials"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Truck Trials"
+date: 2024-08-29T20:36:33.896646
 description: "truck trials game truck trials gamesnacks truck trials famobi gamesnacks car game truck trailer truck games endless truck mobile"
 #draft: true
 image: "img/truck-trials/logo.webp"
-tags: [racing, truck, mobile]
+tags: [mobile, racing, truck]
 embedUrl: "https://truck.games235.com/"
 ---
 

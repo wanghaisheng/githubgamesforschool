@@ -1,6 +1,7 @@
 ---
 title: "Idle Breakout"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Idle Breakout"
+date: 2024-08-29T20:36:33.896646
 description: "Idle Breakout Game, Idle Games, IdleGames, Idle Games Pc, IdleGamesPc, Idle Games Online, IdleGamesOnline, Idle Games Free, IdleGamesFree"
 #draft: true
 image: "img/idle-breakout/logo.png"

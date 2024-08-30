@@ -1,6 +1,7 @@
 ---
 title: "Vex 5"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Vex 5"
+date: 2024-08-29T20:36:33.896646
 description: "Vex 5, Vex 5 Unblocked"
 #draft: true
 image: "img/vex-5/logo.png"

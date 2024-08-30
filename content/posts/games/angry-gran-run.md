@@ -1,6 +1,7 @@
 ---
 title: "Angry Gran Run"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Angry Gran Run"
+date: 2024-08-29T20:36:33.896646
 description: "Angry Gran Run"
 #draft: true
 image: "img/angry-gran-run/logo.png"

@@ -1,6 +1,7 @@
 ---
 title: "Leader Strike"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Leader Strike"
+date: 2024-08-29T20:36:33.896646
 description: "A first-person shooting game with a political theme is called Leader Strike. There has been a power struggle amongst politicians. Play the part of one of the greatest commanders in the planet engaged in fierce combat."
 #draft: true
 image: "img/leader-strike/logo.png"

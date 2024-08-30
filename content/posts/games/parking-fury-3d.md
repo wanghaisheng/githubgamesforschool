@@ -1,10 +1,11 @@
 ---
 title: "Parking Fury 3D"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Parking Fury 3D"
+date: 2024-08-29T20:36:33.896646
 description: ""
 #draft: true
 image: "img/parking-fury-3d/logo.png"
-tags: [car, mobile, parking]
+tags: [parking, car, mobile]
 embedUrl: "https://parkingfury.github.io/3d/"
 ---
 

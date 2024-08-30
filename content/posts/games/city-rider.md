@@ -1,10 +1,11 @@
 ---
 title: "City Rider"
-date: 2024-08-27T14:44:31.261189
+gametitle: "City Rider"
+date: 2024-08-29T20:36:33.896646
 description: "city rider puma city rider jeux city rider game city rider 3d city rider scooter city rider poki city rider car city rider crazy games"
 #draft: true
 image: "img/city-rider/logo.webp"
-tags: [racing, car, mobile]
+tags: [mobile, car, racing]
 embedUrl: "https://ubg77.github.io/edit/city-rider/"
 ---
 

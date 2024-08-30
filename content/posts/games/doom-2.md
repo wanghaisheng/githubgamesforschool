@@ -1,6 +1,7 @@
 ---
 title: "Doom 2"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Doom 2"
+date: 2024-08-29T20:36:33.896646
 description: "Doom 2"
 #draft: true
 image: "img/doom-2/logo.png"

@@ -1,6 +1,7 @@
 ---
 title: "Super Falling Fred"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Super Falling Fred"
+date: 2024-08-29T20:36:33.896646
 description: "Experience the ultimate thrill with Super Falling Fred! Navigate through dangerous obstacles as you fall endlessly. Play now for free and test your reflexes in this exciting game."
 #draft: true
 image: "img/super-falling-fred/logo.png"

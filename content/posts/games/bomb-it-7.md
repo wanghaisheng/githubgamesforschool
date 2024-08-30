@@ -1,6 +1,7 @@
 ---
 title: "Bomb It 7"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Bomb It 7"
+date: 2024-08-29T20:36:33.896646
 description: "Bomb IT 7, Bomb IT 7 Unblocked"
 #draft: true
 image: "img/bomb-it-7/logo.png"

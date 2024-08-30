@@ -1,10 +1,11 @@
 ---
 title: "Moto X3M Bike Race"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Moto X3M Bike Race"
+date: 2024-08-29T20:36:33.896646
 description: ""
 #draft: true
 image: "img/moto-x3m-bike-race/logo.webp"
-tags: [motorbike, moto x3m]
+tags: [moto x3m, motorbike]
 embedUrl: "https://motox3m.games235.com/"
 ---
 

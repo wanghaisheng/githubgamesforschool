@@ -1,6 +1,7 @@
 ---
 title: "Rolly Vortex"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Rolly Vortex"
+date: 2024-08-29T20:36:33.896646
 description: "Slope served as inspiration for the addicting endless running game Rolling Ball 3D. A ball is propelled down from a succession of sloping and tilting platforms; control the ball."
 #draft: true
 image: "img/rolly-vortex/logo.png"

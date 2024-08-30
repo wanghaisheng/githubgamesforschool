@@ -1,10 +1,11 @@
 ---
 title: "Fireboy & Watergirl 5"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Fireboy & Watergirl 5"
+date: 2024-08-29T20:36:33.896646
 description: "Fireboy And Watergirl, Fireboy And Watergirl Unblocked"
 #draft: true
 image: "img/fireboy-watergirl-5/logo.png"
-tags: [mobile, adventure]
+tags: [adventure, mobile]
 embedUrl: "https://fireboyandwatergirlunblocked.github.io/5/"
 ---
 

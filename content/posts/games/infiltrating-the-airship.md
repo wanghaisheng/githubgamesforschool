@@ -1,10 +1,11 @@
 ---
 title: "Infiltrating The Airship"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Infiltrating The Airship"
+date: 2024-08-29T20:36:33.896646
 description: "A fun and engaging TEAMWORK game for two players is Infiltrating The Airship. Aid Infiltrating The Airship in locating the Forest Temple's exit. Watergirl and Fireboy must stay out of the water, and be cautious since the green muck will kill them both!"
 #draft: true
 image: "img/infiltrating-the-airship/logo.png"
-tags: [mobile, adventure]
+tags: [adventure, mobile]
 embedUrl: "https://henrystickmanunblocked.github.io/infiltrating-the-airship/"
 ---
 

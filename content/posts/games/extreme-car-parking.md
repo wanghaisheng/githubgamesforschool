@@ -1,10 +1,11 @@
 ---
 title: "Extreme Car Parking"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Extreme Car Parking"
+date: 2024-08-29T20:36:33.896646
 description: "extreme car parking extreme car parking friv extreme car parking 2 extreme car parking 1 extreme car parking poki extreme car parking 3 extreme car parking 2 friv extreme car driving simulator"
 #draft: true
 image: "img/extreme-car-parking/logo.webp"
-tags: [car, mobile, parking]
+tags: [parking, car, mobile]
 embedUrl: "https://ubg77.github.io/fix/extreme-car-parking/"
 ---
 

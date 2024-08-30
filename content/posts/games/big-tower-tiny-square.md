@@ -1,10 +1,11 @@
 ---
 title: "Big Tower Tiny Square"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Big Tower Tiny Square"
+date: 2024-08-29T20:36:33.896646
 description: "Big Tower Tiny Square, Big Tower Tiny Square Unblocked"
 #draft: true
 image: "img/big-tower-tiny-square/logo.png"
-tags: [mobile, adventure]
+tags: [adventure, mobile]
 embedUrl: "https://bigtowertinysquare.github.io/"
 ---
 

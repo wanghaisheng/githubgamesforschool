@@ -1,6 +1,7 @@
 ---
 title: "CirCloO 2"
-date: 2024-08-27T14:44:31.261189
+gametitle: "CirCloO 2"
+date: 2024-08-29T20:36:33.896646
 description: "CircloO 2, CircloO 2 Unblocked"
 #draft: true
 image: "img/circloo-2/logo.png"

@@ -1,6 +1,7 @@
 ---
 title: "Idle Miner"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Idle Miner"
+date: 2024-08-29T20:36:33.896646
 description: "Play Idle Miner game on FAF Games. Play Idle Miner, Idle Miner Unblocked on FAF Games. ✓ Free online game ✓ Fullscreen mode ✓ No registration required ✓ No Download. Have fun playing!"
 #draft: true
 image: "img/idle-miner/logo.png"

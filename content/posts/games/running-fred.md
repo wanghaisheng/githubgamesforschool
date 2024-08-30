@@ -1,6 +1,7 @@
 ---
 title: "Running Fred"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Running Fred"
+date: 2024-08-29T20:36:33.896646
 description: "Running Fred"
 #draft: true
 image: "img/running-fred/logo.png"

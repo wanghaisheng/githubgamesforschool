@@ -1,10 +1,11 @@
 ---
 title: "Stick Merge"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Stick Merge"
+date: 2024-08-29T20:36:33.896646
 description: "Stick Merge"
 #draft: true
 image: "img/stick-merge/logo.png"
-tags: [shooting, stickman]
+tags: [stickman, shooting]
 embedUrl: "https://webglmath.github.io/stickmerge/"
 ---
 

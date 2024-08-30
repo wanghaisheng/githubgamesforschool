@@ -1,6 +1,7 @@
 ---
 title: "Temple Of Boom"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Temple Of Boom"
+date: 2024-08-29T20:36:33.896646
 description: "Temple Of Boom Game, Action Games, ActionGames, Action Games Pc, ActionGamesPc, Action Games Online, ActionGamesOnline, Action Games Free, ActionGamesFree"
 #draft: true
 image: "img/temple-of-boom/logo.png"

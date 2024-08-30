@@ -1,10 +1,11 @@
 ---
 title: "Parking Fury 3D: Beach City"
-date: 2024-08-27T14:44:31.261189
+gametitle: "Parking Fury 3D: Beach City"
+date: 2024-08-29T20:36:33.896646
 description: ""
 #draft: true
 image: "img/parking-fury-3d-beach-city/logo.webp"
-tags: [car, parking, popular]
+tags: [parking, car, popular]
 embedUrl: "https://ubg77.github.io/fix/parking-fury-3d-beach-city/"
 ---
 
