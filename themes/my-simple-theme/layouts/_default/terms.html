@@ -11,7 +11,7 @@
         </section>
 
         <section class="gallery">
-            <h2>Popular {{ .Title }} Games</h2>
+            <h2>Tags:</h2>
 			
 			
 			
@@ -19,10 +19,11 @@
                 <!-- Repeat this block for each game -->
 				<!--In home index page put games with 'popular' tag-->
 				
-                {{ $index := 0 }}
-				{{ range .Pages }}
-				  {{ partial "gallery.html" (dict "Page" . "Index" $index) }}
-				  {{ $index = add $index 1 }}
+                
+				{{ range $key, $value := .Data.Terms.ByCount }}
+                <a href="{{ "" | absLangURL }}{{ $value.Name }}">{{ $value.Name }} ({{ $value.Count }})</a> 
+				
+				  
 				{{ end }}
                 <!-- End game block -->
             </div>

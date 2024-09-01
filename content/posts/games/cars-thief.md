@@ -1,6 +1,6 @@
 ---
 title: "🚗💨 Cars Thief: The Ultimate Classroom Fun (Unblocked, Of Course!)"
-url: "Cars Thief"
+url: "Cars-Thief"
 gametitle: "Cars Thief"
 date: 2024-08-29T20:36:33.896646
 description: "Ever wanted to steal cars? 😜 Cars Thief is a fun, unblocked game you can play right in your browser. Drive, race, and maybe even escape the police (LOL)! 🚗💨"
