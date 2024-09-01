@@ -21,7 +21,7 @@
 				
                 
 				{{ range $key, $value := .Data.Terms.ByCount }}
-                <a href="{{ "" | absLangURL }}{{ $value.Name }}">{{ $value.Name }} ({{ $value.Count }})</a> 
+                <a href="{{ "" | absLangURL }}{{ $value.Name }}/">{{ $value.Name }} ({{ $value.Count }})</a> 
 				
 				  
 				{{ end }}
