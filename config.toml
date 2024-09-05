@@ -6,6 +6,8 @@ theme = 'my-simple-theme'
 
 enableRobotsTXT = true
 
+googleAnalytics = "G-R292Q31NC5"
+
 [permalinks]
   posts = '/:slug/'
   tags = '/:slug/'       # Adjust as needed
