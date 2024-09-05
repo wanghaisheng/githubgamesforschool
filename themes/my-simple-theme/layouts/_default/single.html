@@ -11,7 +11,12 @@
         </section>
 		
         <section class="game-iframe">
-            <iframe src="{{ .Params.embedUrl }}" id="game-area" scrolling="none" frameborder="0" allowfullscreen="" tabindex="0"></iframe>
+		    {{ if .Site.IsServer }}
+				<iframe src="{{ "" | absLangURL }}t-rex-runner/index.html" id="game-area" scrolling="none" frameborder="0" allowfullscreen="" tabindex="0"></iframe>
+			{{ else }}
+				<iframe src="{{ .Params.embedUrl }}" id="game-area" scrolling="none" frameborder="0" allowfullscreen="" tabindex="0"></iframe>
+			{{ end }}
+            
         </section>
 
 
