@@ -20,8 +20,11 @@
     <title>{{ .Title }} - {{ .Site.Title }}</title>
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 {{ else if eq .Kind "term" }}
-    <title>{{ .Title }} Games - {{ .Site.Title }}</title>
-    <meta name="description" content="Unblock and Play free online {{ .Title }} Games.">
+    <title>{{ .Title | title }} Games - {{ .Site.Title }}</title>
+    <meta name="description" content="{{ index .Site.Data.tagsMetaDescription  .Title  | safeHTML }}">
+{{ else if eq .Kind "taxonomy" }}
+    <title>Browse Games by Tags - Find Your Favorite Genres - {{ .Site.Title }}</title>
+    <meta name="description" content="Explore a wide variety of online games categorized by tags. Whether you're into action, adventure, racing, or puzzle games, find the perfect game for you.">
 {{ else }}
     <title>{{ .Site.Title }}</title>
     <meta name="description" content="{{ .Site.Params.description }}">
