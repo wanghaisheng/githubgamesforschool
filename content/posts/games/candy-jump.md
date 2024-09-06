@@ -11,7 +11,6 @@ embedUrl: "https://webglmath.github.io/candy-jump/"
 Keywords: Candy Jump Game, puzzle games examples, puzzle game for kids, puzzle definition, jigsaw puzzle, puzzle games for adults, puzzle games wikipedia, puzzle games online, jigsaw puzzle games, best puzzle games, cool math games, candy jump world record, candy jump cool math games, candy jump unblocked, color jump, candy jump unblocked 66, candy jump world record 2022, coolmath color jump switch
 ---
 
-**Introduction:**
 
 If you're looking for a fun, challenging, and completely addictive game to play during your free time,  Candy Jump is here for you only! This puzzle game, often found on sites like "unblocked games" and "classroom6x," has wan the hearts of gamers of all ages. With its simple gameplay and colorful visuals, Candy Jump is the perfect way to spend a few minutes or hours.
 

@@ -1,6 +1,6 @@
 ---
 title: "CirCloO 2: A Mind-Bending Puzzle Game! 🤯"
-title: "CirCloO 2"
+url: "CirCloO-2" #don't change it, google crawled
 gametitle: "CirCloO 2"
 date: 2024-08-29T20:36:33.896646
 description: "Play CirCloO 2, the super fun unblocked puzzle game! It's like a jigsaw, but way cooler. Test your skills and have a blast!"

@@ -1,6 +1,6 @@
 ---
 title: "Bus Parking 3D: Master the Art of Parking a Bus"
-title: "Bus-Parking-3D"
+url: "Bus-Parking-3D"
 gametitle: "Bus Parking 3D"
 date: 2024-08-29T20:36:33.896646
 description: "Prepare yourself for the hardest bus parking task ever! Play the free, unblocked game Bus Parking 3D to test your parking prowess. On your PC or mobile device, take pleasure in realistic 3D graphics and difficult levels."

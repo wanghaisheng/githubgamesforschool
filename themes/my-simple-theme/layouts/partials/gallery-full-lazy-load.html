@@ -7,7 +7,7 @@
         {{ $processedImage := $imageResource.Resize "170x170 webp" }}	
 		
 		
-        <a href="{{ .RelPermalink }}">
+        <a href="{{ .RelPermalink }}" title="{{ .Title }}">
 		
 		<img loading="lazy" class="thumbnail" width="170" height="170"  
 			 src="{{ "" | absLangURL }}img/placeholder.webp" 
@@ -25,7 +25,7 @@
   {{ end }}
 
 
-	<h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+	<h4><a href="{{ .RelPermalink }}" title="Play {{ .Page.Params.gametitle }} Unblocked">{{ .Page.Params.gametitle }}</a></h4>
 </div>
 
 

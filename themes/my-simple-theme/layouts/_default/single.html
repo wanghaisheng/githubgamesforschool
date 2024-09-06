@@ -10,25 +10,30 @@
             {{ partial "banner-ads.html" . }}
         </section>
 		
+		<h1>Play: {{ .Params.gametitle }}</h1>
+		
         <section class="game-iframe">
+		    
 		    {{ if .Site.IsServer }}
-				<iframe src="{{ "" | absLangURL }}t-rex-runner/index.html" id="game-area" scrolling="none" frameborder="0" allowfullscreen="" tabindex="0"></iframe>
+				<iframe src="{{ "" | absLangURL }}t-rex-runner/index.html" id="game-area" scrolling="none" frameborder="0" allowfullscreen="" tabindex="0"  title="{{ .Params.gametitle }}: Play {{ .Params.gametitle }} Online for Free"></iframe>
 			{{ else }}
-				<iframe src="{{ .Params.embedUrl }}" id="game-area" scrolling="none" frameborder="0" allowfullscreen="" tabindex="0"></iframe>
+				<iframe src="{{ .Params.embedUrl }}" id="game-area" scrolling="none" frameborder="0" allowfullscreen="" tabindex="0" title="{{ .Params.gametitle }}: Play {{ .Params.gametitle }} Online for Free"></iframe>
 			{{ end }}
-            
+         
+			<p>{{ .Params.description }}</p>
+		  
         </section>
-
+        
 
         <section class="game-details">
-            <h1>{{ .Title }}</h1>
+            <h2>{{ .Title }}</h2>
             <p>{{ .Content }}</p>
-            <div class="tags">
+            <div class="tags">Tags: 
 			    {{ $tags := .Params.tags }}
 				{{ if $tags }}
 					{{ range $index, $tag := $tags }}
 					  
-						<span><a href="{{ $.Site.LanguagePrefix | absURL }}{{ $tag | urlize }}/">{{ $tag }}</a></span>
+						<span><a href="{{ $.Site.LanguagePrefix | absURL }}{{ $tag | urlize }}/" title="Play '{{ $tag }}' Unblocked Games">{{ $tag }}</a></span>
 					   
 					{{ end }}
 				{{ end }}
@@ -37,7 +42,7 @@
         </section>
 
         <section class="related-games">
-            <h2>Related Games</h2>
+            <h3>Related Games to "{{ .Params.gametitle }}".</h3>
             <div class="gallery-grid">
                 <!-- Repeat this block for each game -->
                 {{ $currentPage := . }}

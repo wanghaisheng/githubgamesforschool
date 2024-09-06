@@ -1,6 +1,6 @@
 ---
 title: "Scoot Your Way to Fun with E-Scooter"
-title: "E-Scooter-unblocked"
+url: "E-Scooter-unblocked"
 gametitle: "E-Scooter"
 date: 2024-08-29T20:36:33.896646
 description: "Want a fast-paced, super fun game? Try this awesome e scooter game! Zoom through traffic, dodge obstacles, and race to the finish line! It's unblocked, so you can play right now!"

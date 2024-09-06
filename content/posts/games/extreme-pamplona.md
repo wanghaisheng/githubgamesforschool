@@ -1,6 +1,6 @@
 ---
 title: "Ready to Run With the Bulls? 🐂 Extreme Pamplona Game is Here!"
-title: "Extreme-Pamplona-unblocked"
+url: "Extreme-Pamplona-unblocked"
 gametitle: "Extreme Pamplona"
 date: 2024-08-29T20:36:33.896646
 description: "Ever wanted to experience the thrill of the Running of the Bulls? 🏃‍♂️ Extreme Pamplona is a fun, challenging, and totally free online game where you can do just that! No bulls, no injuries, just pure adrenaline-pumping fun!"

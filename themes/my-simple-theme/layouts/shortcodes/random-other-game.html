@@ -1,0 +1,17 @@
+{{ $currentPage := .Page }}
+{{ $allPages := site.RegularPages }}
+
+{{ $excludedPages := slice }} <!-- Initialize an empty list for excluded pages -->
+
+{{ range $allPages }}
+  {{ if not (intersect .Params.tags $currentPage.Params.tags) }} <!-- Check if the tags do not match -->
+    {{ $excludedPages = $excludedPages | append . }}
+  {{ end }}
+{{ end }}
+
+{{ if gt (len $excludedPages) 0 }} <!-- Ensure there are excluded pages available -->
+  {{ $randomGame := index (shuffle $excludedPages) 0 }}
+  <p>Well, Explore a different game: <a href="{{ $randomGame.RelPermalink }}" title="Play {{ $randomGame.Params.gametitle }} Unblocked game.">{{ $randomGame.Params.gametitle }}</a>:
+  
+  <a href="{{ $randomGame.RelPermalink }}" title="Play {{ $randomGame.Params.gametitle }} game on Github.">{{ $randomGame.Title }}</a></p>
+{{ end }}

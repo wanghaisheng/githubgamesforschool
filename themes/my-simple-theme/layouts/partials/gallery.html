@@ -8,7 +8,7 @@
 		
 		{{ $index := .Index }} <!--index are in parent templates(index,terms,list,taxonomy, and passed to here-->
 		
-        <a href="{{ .Page.RelPermalink }}" title="{{ .Page.Title }}">
+        <a href="{{ .Page.RelPermalink }}" title="Play: {{ .Page.Title }}">
 		{{ if le $index 5 }}
 		<img  width="170" height="170"  src="{{ $processedImage.Permalink }}" alt="{{ .Page.Title }}" />
 			 
@@ -31,7 +31,7 @@
   {{ end }}
 
 
-	<h3><a href="{{ .Page.RelPermalink }}">{{ .Page.Params.gametitle }}</a></h3>
+	<h4><a href="{{ .Page.RelPermalink }}" title="Play {{ .Page.Params.gametitle }} Unblocked">{{ .Page.Params.gametitle }}</a></h4>
 </div>
 
 

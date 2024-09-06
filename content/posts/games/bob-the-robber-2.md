@@ -1,6 +1,6 @@
 ---
 title: "Bob the Robber 2: Steal Your Way to Fun (Unblocked & Free!)"
-title: "Bob-The-Robber-2-unblocked"
+url: "Bob-The-Robber-2-unblocked"
 gametitle: "Bob The Robber 2"
 date: 2024-08-29T20:36:33.896646
 description: "Play Bob the Robber 2, the exciting adventure game, unblocked and free! Enjoy the thrill of the heist with this popular online game."

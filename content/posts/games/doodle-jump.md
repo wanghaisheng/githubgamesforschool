@@ -1,6 +1,6 @@
 ---
 title: "Jumping for Joy: A Look at the Classic Doodle Jump Game 🥳"
-title: "Doodle-Jump-unblocked"
+url: "Doodle-Jump-unblocked"
 gametitle: "Doodle Jump"
 date: 2024-08-29T20:36:33.896646
 description: "Doodle Jump, the classic jumping game, is super fun! Learn about its history, why it's so popular, and where to play it. Let's jump in!"

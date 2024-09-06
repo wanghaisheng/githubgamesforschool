@@ -1,0 +1,38 @@
+{{ with .Params }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "{{ .title }}",
+  "url": "{{ .url | absLangURL }}",
+  
+  {{- if .image }}
+  {{- $processedImageRes := resources.Get .image  }}
+  {{- $processedImage := $processedImageRes.Resize "512x512 webp" }} 
+  "image": "{{ $processedImage.Permalink }}",
+  
+  {{- end }}
+
+  
+  "description": "{{ .description }}",
+  "genre": "{{ delimit .tags ", " }}",
+  "author": {
+    "@type": "Organization",
+    "name": "{{ $.Site.Params.Author }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ $.Site.Params.publisher }}"
+  },
+  "operatingSystem": "Browser",
+  "applicationCategory": "Game",
+  "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "USD",
+    "eligibleRegion": "US"
+  },
+  "embedUrl": "{{ .embedUrl }}"
+}
+</script>
+{{ end }}

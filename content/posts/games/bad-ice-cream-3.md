@@ -1,6 +1,6 @@
 ---
 title: "Bad Ice Cream 3: The Sweetest Adventure Awaits! 🍦"
-title: "Bad-Ice-Cream-3-unblocked"
+url: "Bad-Ice-Cream-3-unblocked"
 gametitle: "Bad Ice Cream 3"
 date: 2024-08-29T20:36:33.896646
 description: "Enjoy frosty fun of Bad Ice Cream 3! This unblocked adventure game lets you conquer levels and collect delicious toppings - all without needing to download. Play Bad Ice Cream 3 online for free now!"

@@ -1,6 +1,6 @@
 ---
 title: "Gear Up for Car Rush: Fun That's Easy to Play!"
-gametitle: "Car-Rush-unblocked"
+url: "Car-Rush-unblocked"
 gametitle: "Car Rush"
 date: 2024-08-29T20:36:33.896646
 description: "Start the engine revving for Car Rush! This fast-paced, unblocked car racing game is available for desktops, mobiles, even in classroom. Challenge yourself with multiplication, play against friends, or just enjoy the thrill of the race!"

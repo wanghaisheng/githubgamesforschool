@@ -1,6 +1,6 @@
 ---
 title: "Color Tunnel: A Fun Run Through Colors 🌈"
-title: "Color-Tunnel-unblocked"
+url: "Color-Tunnel-unblocked"
 gametitle: "Color Tunnel"
 date: 2024-08-29T20:36:33.896646
 description: "Go through a colorful adventure with Color Tunnel, a fun and challenging online running game! Just Wow!!"

@@ -1,6 +1,6 @@
 ---
 title: "Slam Dunk Your Way to Victory with Basketball Legends 2020! 🏀"
-title: "Basketball-Legends-2020-unblocked"
+url: "Basketball-Legends-2020-unblocked"
 gametitle: "Basketball Legends 2020"
 date: 2024-08-29T20:36:33.896646
 description: "Enjoy serious hoops action with Basketball Legends 2020! This exciting online basketball game is perfect for kids and adults alike. Play for free and show off your skills!"

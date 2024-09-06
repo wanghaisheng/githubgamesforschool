@@ -1,6 +1,6 @@
 ---
 title: "Burnin' Rubber 5 XS: Unblocked Fun for Your Next Break!"
-title: "Burnin-Rubber-5-Xs-unblocked"
+url: "Burnin-Rubber-5-Xs-unblocked"
 gametitle: "Burnin Rubber 5 Xs"
 date: 2024-08-29T20:36:33.896646
 description: "burn rubber and race with Burnin' Rubber 5 XS! This unblocked racing game offers hours of fun with its gameplay, customizable cars, and challenging levels. Play now for free! No downloads!!!"

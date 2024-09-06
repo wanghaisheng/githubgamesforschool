@@ -1,6 +1,6 @@
 ---
 title: "Endless Truck: The Game That Never Ends (And You'll Never Get Tired Of) 🚗💨"
-title: "Endless-Truck-game"
+url: "Endless-Truck-game"
 gametitle: "Endless Truck"
 date: 2024-08-29T20:36:33.896646
 description: "Have endless fun! Endless Truck is a super addictive game where you drive a truck, avoiding obstacles, and trying to go as far as possible. It's simple, it's fun, and it's totally addictive!"

@@ -1,6 +1,6 @@
 ---
 title: "Cookie Clicker: The Sweetest Time-Waster You'll Ever Play 🍪"
-title: "Cookie-Clicker-Unblocked"
+url: "Cookie-Clicker-Unblocked"
 gametitle: "Cookie Clicker"
 date: 2024-08-29T20:36:33.896646
 description: "Want a fun and totally addicting game? Cookie Clicker is a super simple but awesome game where you click cookies, get more cookies, and build a cookie empire! It's perfect for when you're bored, and it's totally free to play!"

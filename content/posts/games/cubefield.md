@@ -1,6 +1,6 @@
 ---
 title: "Rolling Ball 3D: A Game That's So Addictive, You'll Forget Your Homework 🤪"
-title: "Cubefield-game-unblocked"
+url: "Cubefield-game-unblocked"
 gametitle: "Cubefield"
 date: 2024-08-29T20:36:33.896646
 description: "Looking for a fun, easy-to-play game that's super addictive? Look no further than Rolling Ball 3D, a game inspired by Slope! Roll, bounce, and avoid obstacles - can you beat your high score?"

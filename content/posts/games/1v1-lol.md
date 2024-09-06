@@ -20,8 +20,12 @@ Keywords: 1v1 lol unblocked, 1v1.lol unblocked, 1v1 lol, 1v1.lol, 1v1 unblocked,
 * **Exciting Gameplay:** Whether you prefer building structures, using your shooting skills, or just outsmarting your opponent, 1v1.LOL has it all. 
 * **Perfect for Any Device:**  Play 1v1.LOL on your computer, phone, or tablet – the choice is yours!
 
+{{< random-game >}}
+
 **Ready to Dominate?**
 
 Head over to Classroom 6x and get ready for some epic 1v1 action in 1v1.LOL! It's a game that's easy to learn but difficult to master. So get out there, practice your skills, and prove yourself as the ultimate champion! 
+
+{{< random-other-game >}} 
 
 **Want to find more awesome 1v1 games?**  We've got a whole library of unblocked games waiting for you on Classroom 6x.  Check out our website and find your next favorite game today! 

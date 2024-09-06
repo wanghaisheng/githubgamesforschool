@@ -11,7 +11,7 @@ embedUrl: "https://webglmath.github.io/fireboy-and-watergirl-1/"
 ---
 
 
-**Hey  there,  game  lovers!  **  Are  you  ready  for  some  super  fun  adventure?  Well,  get  ready  for  a  wild  ride  with  Fireboy  and  Watergirl!  This  game  is  super  popular  for  a  reason,  you  know?  It's  like,  really  simple  to  play,  but  it  can  also  be  pretty  tricky  sometimes!  😂
+**Hey  there,  game  lovers!**  Are  you  ready  for  some  super  fun  adventure?  Well,  get  ready  for  a  wild  ride  with  Fireboy  and  Watergirl!  This  game  is  super  popular  for  a  reason,  you  know?  It's  like,  really  simple  to  play,  but  it  can  also  be  pretty  tricky  sometimes!  😂
 
 It's  a  classic  adventure  game,  like  those  old  school  ones  we  used  to  play  on  our  computers.  You  know,  the  ones  where  you  had  to  run  around  and  jump  over  things  to  get  to  the  end.  This  one's  like  that,  but  with  a  cool  twist!  
 

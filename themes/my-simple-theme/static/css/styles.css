@@ -85,6 +85,8 @@ main {
 	margin-top: 30px;
 }
 
+h1 { margin-top: 30px; }
+
 /* Gallery */
 .gallery {
     margin-top: 20px;
@@ -112,7 +114,7 @@ main {
 	border-radius: 5px  5px 0px 0px;
 }
 
-.game-card h3 {
+.game-card h4 {
     color: #000000;
 	margin: 2px;
 	text-transform: uppercase;
@@ -122,7 +124,7 @@ main {
 	
 }
 
-.game-card h3 a{
+.game-card h4 a{
 	text-decoration: none;
 	color: #000000;
 }
@@ -133,7 +135,7 @@ main {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle glow effect */
 }
 
-.game-card:hover h3 a{
+.game-card:hover h4 a{
 	color: #ffffff;
 }
 
@@ -155,7 +157,7 @@ footer {
     gap: 20px;
 }
 
-footer h4 {
+footer h5 {
     margin-bottom: 10px;
 	text-transform: uppercase;
 }
@@ -184,11 +186,12 @@ footer ul li a:hover {
 }
 
 /* Game iframe */
+
 .game-iframe iframe {
     width: 100%;
     height: 500px;
-    margin-bottom: 20px;
-    margin-top: 40px;
+    margin-bottom: 0px;
+    margin-top: 10px;
 	border-radius: 5px;
 }
 
@@ -224,6 +227,8 @@ footer ul li a:hover {
 	display: inline-block;
     padding: 3px 0;    	
    } 
+   
+   h1 { margin-top: 73px; }
   
 }
 

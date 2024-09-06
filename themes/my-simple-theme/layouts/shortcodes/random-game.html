@@ -1,0 +1,7 @@
+{{ $currentPage := .Page }}
+{{ $matchingPages := where site.RegularPages "Params.tags" "intersect" $currentPage.Params.tags }}
+{{ if gt (len $matchingPages) 1 }}  <!-- Ensure there's more than one page -->
+  {{ $randomGame := index (shuffle (where $matchingPages "RelPermalink" "ne" $currentPage.RelPermalink)) 0 }}
+  <p>BTW!! Check out another game like "{{ $currentPage.Params.gametitle }}": <a href="{{ $randomGame.RelPermalink }}" title="Play {{ $randomGame.Params.gametitle }} Unblocked game.">{{ $randomGame.Params.gametitle }}</a>:
+  <a href="{{ $randomGame.RelPermalink }}" title="Play {{ $randomGame.Params.gametitle }} Classroom 6x game.">{{ $randomGame.Title }}</a></p>
+{{ end }}

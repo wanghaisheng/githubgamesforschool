@@ -1,6 +1,6 @@
 ---
 title: "Awesome Tanks 2: Blast Your Way Through 15 Explosive Stages (Unblocked!)"
-title: "Awesome-Tanks-2-unblocked"
+url: "Awesome-Tanks-2-unblocked"
 gametitle: "Awesome Tanks 2"
 date: 2024-08-29T20:36:33.896646
 description: "Get ready for explosive action in Awesome Tanks 2, the sequel to the popular tank battle game! Blast your way through 15 challenging levels with unique maps and intense gameplay. Play now, unblocked and free!"

@@ -3,5 +3,5 @@
 	<a href="{{ .RelPermalink }}">
 		<img loading="lazy" width="170" height="170" class="thumbnail" src="{{ "" | absLangURL }}img/placeholder.webp" data-src="{{ "" | absLangURL }}{{ .Params.image }}" alt="{{ .Title }}" />
 	</a>
-	<h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+	<h4><a href="{{ .RelPermalink }}">{{ .Page.Params.gametitle }}</a></h4>
 </div>
