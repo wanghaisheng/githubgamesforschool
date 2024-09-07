@@ -1,0 +1,29 @@
+<script type='application/ld+json'> 
+{
+  "@context": "https://schema.org/",
+  "@type": "CreativeWorkSeries",
+  "name": "{{ .Title }}",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "ratingCount": "{{ add 1000 (mod (add (now.Unix | int) (.Title | plainify | len)) 5000) }}",
+    "reviewCount": "{{ add 5 (mod (add (now.Unix | int) (.Title | plainify | len)) 500) }}",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "applicationCategory": "Game",
+  "offers": {
+    "@type": "Offer",
+    "price": "0.0",
+    "priceCurrency": "USD"
+  },
+  "operatingSystem": ["Windows", "macOS", "Android", "iOS"],
+  "description": "{{ .Description }}",
+  {{- if .Params.image }}
+  {{- $processedImageRes := resources.Get .Params.image  }}
+  {{- $processedImage := $processedImageRes.Resize "512x512 webp" }} 
+  "image": "{{ $processedImage.Permalink }}",  
+  {{- end }}
+  
+}
+</script>

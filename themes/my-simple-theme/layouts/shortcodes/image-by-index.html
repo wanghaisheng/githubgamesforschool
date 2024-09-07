@@ -1,0 +1,16 @@
+{{ $images := .Page.Params.gallery_images }}
+{{ $index := .Get 0 }}
+{{ with index $images (sub $index 1) }}
+   {{ $processedImageRes := resources.Get .src  }}
+  {{ $processedImage := $processedImageRes.Resize "600x400 webp" }} 
+ 
+
+  <figure>
+    <img src="{{ $processedImage.Permalink }}" alt="{{ .alt }}" title="{{ .title }}" loading="lazy" width="{{ $processedImage.Width }}" height="{{ $processedImage.Height }}">
+    {{ if .caption }}
+    <figcaption>{{ .caption }}</figcaption>
+    {{ end }}
+  </figure>
+{{ else }}
+  <p>No image found at index {{ $index }}</p>
+{{ end }}

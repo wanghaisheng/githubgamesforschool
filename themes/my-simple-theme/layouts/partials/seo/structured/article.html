@@ -2,8 +2,8 @@
 {
   "@context": "http://schema.org",
   "@type": "Article",
-  "author": {
-    "name" : "{{ if .Params.author -}}{{ .Params.author }}{{- else if .Site.Author.name -}}{{ .Site.Author.name }}{{- end }}"
+  "author": { 
+    "name" : "{{ if .Site.Params.author -}}{{ .Site.Params.author }}{{- else if .Site.Author.name -}}{{ .Site.Author.name }}{{- end }}"
   },
   "headline": "{{ .Title }}",
   "description" : "{{ if .Description }}{{ .Description | plainify }}{{ else }}{{if .IsPage}}{{ .Summary | plainify  }}{{ end }}{{ end }}",
@@ -11,8 +11,13 @@
   "wordCount": {{ .WordCount }},
   "datePublished" : "{{ .PublishDate.Format "2006-01-02T15:04:05" }}",
   "dateModified" : "{{ .Date.Format "2006-01-02T15:04:05"  }}",
-  "image" : "{{ .Site.Params.logo | absURL }}",
-  "keywords" : [ "{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}" ],
+  {{- if .Params.image }}
+  {{- $processedImageRes := resources.Get .Params.image  }}
+  {{- $processedImage := $processedImageRes.Resize "512x512 webp" }} 
+  "image": "{{ $processedImage.Permalink }}",  
+  {{- end }}
+  
+  "keywords" : ["{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}"],
   "mainEntityOfPage" : "{{ .Permalink }}",
   "publisher" : {
     "@type": "Organization",
