@@ -21,7 +21,7 @@ googleAnalytics = "G-R292Q31NC5"
 
 [outputs]
   home = ["HTML", "RSS"]
-  page = ["HTML"]
+  page = ["HTML", "JSON"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML"]
   taxonomyTerm = ["HTML"]

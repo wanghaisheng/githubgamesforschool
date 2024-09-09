@@ -1,0 +1,18 @@
+{
+  "title": "{{ .Title | htmlEscape | replaceRE `\n` `\\n` }}",
+  "game_title": "{{ .Params.gametitle | htmlEscape | replaceRE `\n` `\\n` }}",
+  "description": "{{ .Params.description | htmlEscape | replaceRE `\n` `\\n` }}",
+  "embed_url": "{{ .Params.embedUrl | htmlEscape | replaceRE `\n` `\\n` }}",
+  "content_html": "{{ .Content | safeHTML | htmlEscape | replaceRE `\n` `\\n` }}",
+  "content_text": "{{ .Content | plainify | htmlEscape | replaceRE `\n` `\\n` }}",
+  "tags": [
+    {{- range $index, $tag := .Params.tags }}
+      {{- if $index }}, {{ end }}
+      "{{ $tag | htmlEscape | replaceRE `\n` `\\n` }}"
+    {{- end }}
+  ],
+  {{- if .Params.image }}
+  "image_url": "{{- $processedImageRes := resources.Get .Params.image -}} {{- $processedImage := $processedImageRes.Resize "512x512 webp" -}} {{ $processedImage.Permalink | htmlEscape }}",
+  {{- end }}
+  "permalink": "{{ .Permalink | htmlEscape }}"
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Embed</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <iframe id="gameIframe" src="" allowfullscreen></iframe>
+
+    <script>
+        // Get URL parameter
+        function getParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+
+        // Fetch and insert the embed URL
+        async function loadGame() {
+            const gameParam = getParam('game');  // ?game=Bitlife-Unblocked-game
+            if (!gameParam) {
+                console.error('No game parameter provided.');
+                return;
+            }
+
+            //const jsonUrl = `https://online-generator.github.io/unblockedgames/${gameParam}/index.json`;
+            const jsonUrl = `http://localhost:1313/unblockedgames/${gameParam}/index.json`;
+
+            try {
+                const response = await fetch(jsonUrl);
+                if (!response.ok) {
+                    throw new Error('Failed to fetch JSON');
+                }
+
+                const data = await response.json();
+                const embedUrl = data.embed_url; // Assuming the JSON contains "embed_url"
+
+                // Set the iframe source
+                const iframe = document.getElementById('gameIframe');
+                iframe.src = embedUrl;
+            } catch (error) {
+                console.error('Error loading the game:', error);
+            }
+        }
+
+        // Load the game once the page is ready
+        window.onload = loadGame;
+    </script>
+
+</body>
+</html>
