@@ -35,13 +35,16 @@
                 console.error('No game parameter provided.');
                 return;
             }
-
+            
+			 // Declare jsonUrl before the if-else block
+            let jsonUrl;
             
 			if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
-				const jsonUrl = `http://localhost:1313/unblockedgames/${gameParam}/index.json`;
+			    console.log('The site is running on localhost');
+				jsonUrl = `http://localhost:1313/unblockedgames/${gameParam}/index.json`;
 			} 
             else{
-			   const jsonUrl = `https://online-generator.github.io/unblockedgames/${gameParam}/index.json`;
+			   jsonUrl = `https://online-generator.github.io/unblockedgames/${gameParam}/index.json`;
 			}
 
             try {
