@@ -1,12 +1,12 @@
-baseURL = 'https://online-generator.github.io/unblockedgames/'
+baseURL = 'https://githubgames.silkandpepper.com/'
 languageCode = 'en-us'
-title = 'Unblocked Games'
+title = 'Github Unblocked Games'
 
 theme = 'my-simple-theme'
 
 enableRobotsTXT = true
 
-googleAnalytics = "G-R292Q31NC5"
+googleAnalytics = "G-xxxxxxx"
 
 [permalinks]
   posts = '/:slug/'
@@ -30,6 +30,6 @@ googleAnalytics = "G-R292Q31NC5"
     showRelatedPosts = true #for lightbi related posts
     description = "Tired of boring classwork? Unleash Your Inner Gamer: Unblocked Games for the Classroom and Beyond."
 	subtitle = "Classroom 6x"
-	author = "Github Unblocked Games"
+	author = "Silkandpepper Github Unblocked Games"
 	publisher = "Github Classroom 6x Unblocked Games"
 	
